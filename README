@@ -1,31 +1,45 @@
-Sufa - A Suffix Arrray implementation in C#
+= Sufa - A Suffix Arrray implementation in C#
 
-Based on the algorithrm described in:
-Michael A. Maniscalco and Simon J. Puglisi. 2008. An efficient, versatile approach to suffix sorting. J. Exp. Algorithmics 12, Article 1.2 (June 2008), 23 pages.
+Sufa is a suffix array implementation in C#. Suffix arrays can be used for 
+efficient substring queries, BWT transforms, substring statistics extraction 
+etc.
+
+The implementation is based on the algorithrm described in:
+Michael A. Maniscalco and Simon J. Puglisi. 2008. An efficient, versatile 
+approach to suffix sorting. J. Exp. Algorithmics 12, Article 1.2 (June 2008).
 DOI=10.1145/1227161.1278374 http://doi.acm.org/10.1145/1227161.1278374
 
-Dependencies
+For bug reports, suggestions etc. please e-mail the author at eranmeir 
+(the author is using Google's mail service).
+
+All comments are welcome.
+
+If you use the code in your software project I would love to hear about it.
+
+== Usage
+A few simple usage examples are given in the Examples project
+
+== Dependencies
 This library relies on the C5 generic collection library for C#/.NET
 http://www.itu.dk/research/c5/
-https://github.com/sestoft/C5/
 
-License
- Copyright (c) 2012 Eran Meir
+== License
+Copyright (c) 2012 Eran Meir
 
- Permission is hereby granted, free of charge, to any person obtaining a copy
- of this software and associated documentation files (the "Software"), to deal
- in the Software without restriction, including without limitation the rights
- to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- copies of the Software, and to permit persons to whom the Software is
- furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
  
- The above copyright notice and this permission notice shall be included in
- all copies or substantial portions of the Software.
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
  
- THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
- SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
