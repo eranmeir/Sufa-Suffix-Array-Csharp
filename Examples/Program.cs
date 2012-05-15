@@ -9,21 +9,13 @@ namespace Sufa.Examples
     {
         static void Main(string[] args)
         {
-            SuffixArray sa = new SuffixArray("abracadabrax");
-            //SuffixArray sa = new SuffixArray("aaaaaaaaaaaaaaaa");
-            PrintSortedArray(sa);
+            string str = "abcracadabra";
+            // Create a new suffix array
+            SuffixArray sa = new SuffixArray(str);
+            // Find substring
+            int index = sa.IndexOf("rac");
+            // Get LCP value 
+            int lcp = sa.Lcp[index];
         }
-
-
-        static void PrintSortedArray(SuffixArray sa)
-        {
-            for (int i = 0; i < sa.Length; i++)
-            {
-                Console.Write(sa.Str.Substring(sa[i]));
-                Console.WriteLine(" lcp = " + sa.Lcp[i].ToString());
-            }
-        }
-
-
     }
 }
