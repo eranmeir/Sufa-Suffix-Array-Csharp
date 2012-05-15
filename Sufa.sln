@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sufa", "Sufa\Sufa.csproj", "{D53748D9-B883-4304-B7CD-3DE071A8531C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{3D478978-21AD-419E-9320-40A4451E813A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examples", "Examples\Examples.csproj", "{4FDCFE9F-81BB-4468-A51E-1BD74E500ACF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D53748D9-B883-4304-B7CD-3DE071A8531C}.Debug|x86.ActiveCfg = Debug|x86
+		{D53748D9-B883-4304-B7CD-3DE071A8531C}.Debug|x86.Build.0 = Debug|x86
+		{D53748D9-B883-4304-B7CD-3DE071A8531C}.Release|x86.ActiveCfg = Release|x86
+		{D53748D9-B883-4304-B7CD-3DE071A8531C}.Release|x86.Build.0 = Release|x86
+		{3D478978-21AD-419E-9320-40A4451E813A}.Debug|x86.ActiveCfg = Debug|x86
+		{3D478978-21AD-419E-9320-40A4451E813A}.Debug|x86.Build.0 = Debug|x86
+		{3D478978-21AD-419E-9320-40A4451E813A}.Release|x86.ActiveCfg = Release|x86
+		{3D478978-21AD-419E-9320-40A4451E813A}.Release|x86.Build.0 = Release|x86
+		{4FDCFE9F-81BB-4468-A51E-1BD74E500ACF}.Debug|x86.ActiveCfg = Debug|x86
+		{4FDCFE9F-81BB-4468-A51E-1BD74E500ACF}.Debug|x86.Build.0 = Debug|x86
+		{4FDCFE9F-81BB-4468-A51E-1BD74E500ACF}.Release|x86.ActiveCfg = Release|x86
+		{4FDCFE9F-81BB-4468-A51E-1BD74E500ACF}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
