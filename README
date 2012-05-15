@@ -1,23 +1,19 @@
 = Sufa - A Suffix Arrray implementation in C#
 
-Sufa is a suffix array implementation in C#. Suffix arrays can be used for 
-efficient substring queries, BWT transforms, substring statistics extraction 
-etc.
+Sufa is a suffix array implementation in C#. 
 
-The implementation is based on the algorithrm described in:
+This implementation is based on the algorithrm described in:
 Michael A. Maniscalco and Simon J. Puglisi. 2008. An efficient, versatile 
 approach to suffix sorting. J. Exp. Algorithmics 12, Article 1.2 (June 2008).
 DOI=10.1145/1227161.1278374 http://doi.acm.org/10.1145/1227161.1278374
 
-For bug reports, suggestions etc. please e-mail the author at eranmeir 
-(the author is using Google's mail service).
-
-All comments are welcome.
+For bug reports, suggestions or any kind of comment, please e-mail the author 
+at eranmeir AT-sign gmail dot com.
 
 If you use the code in your software project I would love to hear about it.
 
 == Usage
-A few simple usage examples are given in the Examples project
+A simple usage example is given in the Examples project
 
 == Dependencies
 This library relies on the C5 generic collection library for C#/.NET

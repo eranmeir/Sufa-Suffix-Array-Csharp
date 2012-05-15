@@ -76,10 +76,6 @@ namespace Sufa.Tests
         }
         /// <summary>
         /// Simple functional tests
-        ///
-        /// Search array for "a". Should give 2 hits.
-        /// Search arry for "z". should give no hits.
-        /// Search array for "yakawow". should give exactly one hit (at offset 0)
         /// </summary>
         [Test]
         public void TestSearch1()
@@ -111,10 +107,6 @@ namespace Sufa.Tests
             SuffixArray sa = new SuffixArray("yakawow");
             Assert.AreEqual(sa.IndexOf(""), -1, "Wrong index");
         }
-
-        // TODO - expected fail test on null/empty string?
-
-        // Search Array (null, X) should give no hits
 
         public void PrintSortedArray(SuffixArray sa)
         {
